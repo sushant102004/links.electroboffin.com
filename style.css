@@ -97,6 +97,10 @@ html {
   display: flex;
 }
 
+.socialContainer:hover a{
+  color: #fa862d;
+}
+
 .socialText {
   margin: auto;
   color: white;
