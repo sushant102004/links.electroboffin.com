@@ -27,7 +27,6 @@ html {
 .mainContainer {
     width: 50rem;
     height: 100vh;
-    border-radius: 1rem;
     margin: auto;
 }
 
@@ -81,4 +80,23 @@ html {
 .socialContainer:hover {
     scale: 1.05;
     transition: 0.5s;
+}
+
+
+.footerPadding {
+    width: 50vw;
+    height: 2rem;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 600px) {
+    html {
+      font-size: 35%;
+    }    
+
+    .mainContainer {
+        width: 15rem;
+        
+    }
 }
