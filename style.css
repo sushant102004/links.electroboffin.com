@@ -116,3 +116,48 @@ html {
   width: 50vw;
   height: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    width: 100vw;
+    height: 100vh;
+  }
+  body {
+    background-image: url(images/background.jpg);
+    background-size: 120rem;
+  }
+
+  .logo{
+    height: 18rem;
+    width: 18rem;
+    background-repeat: no-repeat;
+    background-size: 18rem;
+    margin-top: 8rem;
+  }
+
+  .logoText{
+    font-size: 4.8rem;
+  }
+
+  .description{
+    font-size: 3rem;
+  }
+
+  .supportText {
+    font-size: 2.7rem;
+  }
+
+  .socialContainer {
+    width: 50rem;
+    height: 6rem;
+  }
+
+  .socialText{
+    font-size: 2.3rem;
+  }
+
+  .allRights {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+}
